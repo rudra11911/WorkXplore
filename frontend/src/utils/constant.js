@@ -1,9 +1,9 @@
-export const USER_API_END_POINT = "http://localhost:3000/api/v1/users";
+export const USER_API_END_POINT = "https://work-xplore-backend.vercel.app/users";
 
-export const JOB_API_END_POINT = "http://localhost:3000/api/v1/job";
+export const JOB_API_END_POINT = "https://work-xplore-backend.vercel.app/job";
 
-export const APPLICATION_API_END_POINT = "http://localhost:3000/api/v1/application";
+export const APPLICATION_API_END_POINT = "https://work-xplore-backend.vercel.app/application";
 
-export const COMPANY_API_END_POINT = "http://localhost:3000/api/v1/company";
+export const COMPANY_API_END_POINT = "https://work-xplore-backend.vercel.app/company";
 
-export const ADMIN_API_END_POINT = "http://localhost:3000/api/v1/admin";
+export const ADMIN_API_END_POINT = "https://work-xplore-backend.vercel.app/admin";

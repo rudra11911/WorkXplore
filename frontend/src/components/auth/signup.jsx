@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Navbar from '../common/navbar';
+import Navbar from '../common/Navbar';
 import { Label } from '../ui/label';
 import { Input } from '../ui/input';
 import { RadioGroup } from '../ui/radio-group';

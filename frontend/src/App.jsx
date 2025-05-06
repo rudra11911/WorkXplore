@@ -8,7 +8,7 @@ import Profile from "./components/pages/ProfilePage";
 import Jobdescription from "./components/layout/jobs/Jobdescription";
 import Companies from "./components/pages/CompanyPage";
 import CompanyCreate from "./components/layout/Company/CompanyCreate";
-import CompanySetup from "./components/layout/Company/";
+import CompanySetup from "./components/layout/Company/CompanySetup";
 import RecruiterJobsPage from "./components/pages/RecruiterJobsPage";
 import PostJob from "./components/layout/recruiterJobs/PostJob";
 import ApplicantPage from "./components/pages/ApplicantPage";

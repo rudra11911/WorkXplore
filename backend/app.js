@@ -29,7 +29,11 @@ app.use(cookieParser());
 //starting frontend server on port 5173
 app.use(cors({
     origin: '*'
-  }));
+  } ,
+  {
+    credentials: true
+  }
+));
 
 
 app.get('/', (req, res) => {

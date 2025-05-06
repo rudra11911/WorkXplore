@@ -1,8 +1,8 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import authSlice from "./authslice";
-import jobSlice from "./jobslice";
-import companySlice from "./companyslice";
-import applicationSlice from "./applicationslice";
+import authSlice from "./authSlice";
+import jobSlice from "./jobSlice";
+import companySlice from "./companySlice";
+import applicationSlice from "./applicationSlice";
 
 import {
 

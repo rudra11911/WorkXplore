@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 import { LogOut, User2 , LayoutDashboard, Layout  } from "lucide-react";
 import { Link } from "react-router-dom";
   import { useDispatch, useSelector } from 'react-redux'
-  import { setUser } from '@/redux/authSlice'
+  import { setUser } from '@/redux/authslice'
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { USER_API_END_POINT } from "../../utils/constant";

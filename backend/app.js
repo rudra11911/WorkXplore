@@ -3,9 +3,8 @@
 import cookieParser from "cookie-parser";
 import express from "express";
 import dotenv from "dotenv";
-import cors from "cors";
 import mongodbconnect from "./utils/db.js";
-
+import cors from 'cors';
 //importing the routes
 import userRoutes from "./routes/userRoutes.js";
 import companyRoutes from "./routes/companyRoutes.js";
@@ -18,8 +17,13 @@ const PORT = process.env.PORT || 5000;
 
 // Create an express application
 const app = express();
+const cors = require("cors");
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://workxplore.vercel.app',
+  credentials: true
+}));
+
 
 //adding Middlewares
 app.use(express.json());

@@ -17,7 +17,6 @@ const PORT = process.env.PORT || 5000;
 
 // Create an express application
 const app = express();
-const cors = require("cors");
 
 app.use(cors({
   origin: 'https://workxplore.vercel.app',

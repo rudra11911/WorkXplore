@@ -34,6 +34,10 @@ app.use(cors(
     }
 )); 
 
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+})
+
 //Routes
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/company' , companyRoutes);

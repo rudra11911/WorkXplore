@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Navbar from '../common/Navbar';
 import Job from '../layout/jobs/Jobcard';
 import { useDispatch, useSelector } from 'react-redux';
-import { setSearchedQuery } from '@/redux/jobSlice';
+import { setSearchedQuery } from '@/redux/jobslice';
 import useGetAllJobs from '@/hooks/useGetAllJobs';
 import { Search } from 'lucide-react';
 import { Button } from '../ui/button';

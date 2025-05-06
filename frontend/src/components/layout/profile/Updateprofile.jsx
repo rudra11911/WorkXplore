@@ -10,7 +10,7 @@ import {
 import { Label } from "../../ui/label";
 import { Input } from "../../ui/input";
 import { Button } from "../../ui/button";
-import { setUser } from "@/redux/authSlice";
+import { setUser } from "@/redux/authslice";
 import axios from "axios";
 import { USER_API_END_POINT } from "../../../utils/constant";
 import { toast } from "sonner";

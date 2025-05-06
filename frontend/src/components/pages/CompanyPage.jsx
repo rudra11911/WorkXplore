@@ -8,7 +8,7 @@ import useGetAllCompanies from '../../hooks/useGetAllCompanies'
 import { useState , useEffect } from 'react'
 
 import { useDispatch } from 'react-redux'
-import { setSearchCompanyByText } from '@/redux/companySlice'
+import { setSearchCompanyByText } from '@/redux/companyslice'
 
 function Companies() {  
     const [input, setInput] = useState("");

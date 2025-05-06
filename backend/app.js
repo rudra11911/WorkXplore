@@ -18,7 +18,10 @@ const PORT = process.env.PORT || 5000;
 // Create an express application
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+  origin: ["https://workxplore.vercel.app", "http://localhost:3000"],
+  credentials: true,
+};
 
 //adding Middlewares
 app.use(express.json());

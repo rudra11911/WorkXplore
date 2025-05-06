@@ -1,5 +1,5 @@
 
-import Navbar from '../common/navbar'
+import Navbar from '../common/Navbar'
 import { Input } from '../ui/input'
 import { Button } from '../ui/button'
 import CompaniesTable from '../layout/company/CompanyJobsTable'

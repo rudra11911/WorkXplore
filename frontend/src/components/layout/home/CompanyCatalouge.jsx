@@ -2,7 +2,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Button } from '../../ui/button';
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from 'react-redux';
-import { setSearchedCompany } from '@/redux/companySlice';
+import { setSearchedCompany } from '@/redux/companyslice';
 import { useEffect } from 'react';
 
 const category = [

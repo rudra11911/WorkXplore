@@ -11,6 +11,9 @@ import companyRoutes from "./routes/companyRoutes.js";
 import jobRoutes from "./routes/jobRoutes.js";
 import applicationRoutes from "./routes/applicationRoutes.js";
 import adminRoutes from "./routes/adminRoutes.js";
+import swaggerUi from "swagger-ui-express";
+import swaggerSpec from "./utils/swagger.js";
+
 
 dotenv.config({});
 const PORT = process.env.PORT || 5000;
@@ -32,6 +35,8 @@ app.use(cookieParser());
 
 //setting cors for backend and frontend connection
 //starting frontend server on port 5173
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.get("/", (req, res) => {
   res.send(`
